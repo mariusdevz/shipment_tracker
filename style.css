@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: teal;
+}
+
+form {
+  background-color: darkcyan;
+  padding: 40px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 450px;
+  max-width: 550px;
+}
+
+h2 {
+  margin: 20px 0;
+  color: #fff;
+}
+
+input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.2);
+  width: 60%;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* next button */
+.next {
+  background-color: goldenrod;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.next:hover {
+  background-color: cadetblue;
+  transform: scale(1);
+}
+
+/* next button */
+
+button {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, coral, orange);
+  color: #ffff;
+  font-weight: bold;
+  transition:
+    background 0.5s,
+    transform 0.5s;
+}
+
+button:hover {
+  background: darkorange;
+  transform: scale(1.02);
+}
+
+li {
+  list-style: none;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.list {
+  background: seagreen;
+  padding: 15px;
+  margin: 10px 0;
+  color: #ffff;
+}
+
+p {
+  background-color: midnightblue;
+  color: #ffff;
+  margin: 25px 0 0 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
